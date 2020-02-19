@@ -1,0 +1,403 @@
+body main > div > div.fourth-section-works ul, body main > div > div.third-section-skills > div.skills-bar-graph > div {
+  display: flex !important;
+  align-items: center !important;
+}
+
+body main > div > div.fourth-section-works > div.gallery-modal .gallery-arrow, body main > div > div.first-view, body .header nav.navbar ul.navbar-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(../images/bg/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #191816 !important;
+  color: #191816;
+  font-family: "Source Sans Pro", sans-serif !important;
+  letter-spacing: 0.5px;
+}
+body a {
+  text-decoration: none;
+}
+body ul li a {
+  color: #f8f7f7 !important;
+  cursor: pointer;
+}
+body ul li a.active {
+  color: #c33636 !important;
+  font-weight: bolder;
+}
+body ul li a.active img {
+  opacity: 0.3;
+}
+body .header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  padding: 0px !important;
+}
+body .header nav.navbar {
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 50px;
+  z-index: 1;
+}
+body .header nav.navbar ul.navbar-nav {
+  padding: 0 15%;
+  text-transform: uppercase;
+  width: 100%;
+}
+body .header nav .navbar-toggler {
+  border: 1px solid #f8f7f7;
+}
+body main > div > div {
+  padding: 0 15%;
+}
+body main > div > div:not(.first-view) {
+  padding-top: 55px;
+}
+body main > div > div.first-view {
+  height: 100vh;
+  color: #f8f7f7;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  padding-top: 145px;
+}
+body main > div > div.first-view div {
+  padding: 0 15%;
+}
+body main > div > div.first-view div p:nth-child(1) {
+  font-size: 4rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #c33636;
+}
+body main > div > div.first-view div p:nth-child(2) {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+body main > div > div.first-view div p:nth-child(3) {
+  margin-top: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body main > div > div.second-section-about {
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 55px;
+}
+body main > div > div.second-section-about > div:first-child {
+  text-align: right;
+  margin-bottom: 1%;
+}
+body main > div > div.second-section-about > div:first-child span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+body main > div > div.second-section-about > div:first-child span:first-child {
+  color: #191816;
+}
+body main > div > div.second-section-about > div:first-child span:last-child {
+  color: #c33636;
+}
+body main > div > div.second-section-about section {
+  text-align: justify;
+  font-weight: 600;
+  color: #191816;
+}
+body main > div > div.second-section-about .timeline-row {
+  min-height: 100px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+body main > div > div.second-section-about .timeline-row .timeline-year-box {
+  background-color: #c33636;
+  height: max-content;
+  min-width: 130px;
+  color: #f8f7f7;
+  text-align: center;
+  padding: 5px 0px;
+}
+body main > div > div.second-section-about .timeline-row .timeline-tree {
+  padding: 12px 28px;
+}
+body main > div > div.second-section-about .timeline-row .timeline-tree .timeline-bullet {
+  width: 10px;
+  height: 10px;
+  background: #c33636;
+  border-radius: 50%;
+}
+body main > div > div.second-section-about .timeline-row .timeline-tree .timeline-line {
+  width: 2px;
+  height: 136%;
+  background: #c33636;
+  margin-left: 3.8px;
+}
+body main > div > div.second-section-about .timeline-row:last-child .timeline-line {
+  display: none;
+}
+body main > div > div.third-section-skills {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 55px;
+}
+body main > div > div.third-section-skills > div:first-child {
+  text-align: right;
+  margin-bottom: 1%;
+}
+body main > div > div.third-section-skills > div:first-child span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+body main > div > div.third-section-skills > div:first-child span:first-child {
+  color: #c33636;
+}
+body main > div > div.third-section-skills > div:first-child span:last-child {
+  color: #191816;
+}
+body main > div > div.third-section-skills > div.skills-bar-graph {
+  height: 335px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+body main > div > div.third-section-skills > div.skills-bar-graph > div {
+  flex-direction: column;
+}
+body main > div > div.third-section-skills > div.skills-bar-graph > div:not(:last-child) {
+  padding-right: 30px;
+}
+body main > div > div.third-section-skills > div.skills-bar-graph > div .skills-bar {
+  width: 80px;
+  height: 100px;
+  background-color: #c33636;
+}
+body main > div > div.fourth-section-works {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 55px;
+}
+body main > div > div.fourth-section-works > div:first-child {
+  text-align: right;
+  margin-bottom: 1%;
+}
+body main > div > div.fourth-section-works > div:first-child span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f8f7f7;
+}
+body main > div > div.fourth-section-works > div.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 4px 6px 13px -1px #000000;
+}
+body main > div > div.fourth-section-works > div.gallery img {
+  max-width: 400px;
+  cursor: pointer;
+  width: 23.85%;
+  height: 190px;
+  margin: 5px;
+  object-fit: cover;
+}
+body main > div > div.fourth-section-works > div.gallery-modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0px;
+  left: 0px;
+  padding: 10px 84px;
+  text-align: center;
+  z-index: 2;
+  display: none;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f8f7f7;
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .full-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  width: max-content;
+  max-height: 100vh;
+  -ms-transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+}
+body main > div > div.fourth-section-works > div.gallery-modal .full-img img {
+  max-height: 95vh;
+  max-width: 95vw;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .gallery-arrow {
+  width: 100%;
+  top: 45%;
+  position: absolute;
+  padding: 0px 10px;
+  margin-left: -84px;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .gallery-arrow span {
+  padding: 0px 20px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+  background: #f8f7f7;
+  color: #191816;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .gallery-arrow span.active {
+  opacity: 1;
+  cursor: pointer;
+}
+body main > div > div.fourth-section-works > div.gallery-modal .gallery-arrow span.inactive {
+  opacity: 0.2;
+  pointer-events: none;
+}
+body main > div > div.fourth-section-works ul {
+  justify-content: center;
+}
+body main > div > div.fourth-section-works ul li {
+  padding: 0 2%;
+}
+body main > div > div.fourth-section-works ul li:not(last-child) {
+  border-right: 1px solid #f8f7f7;
+}
+body main > div > div.fourth-section-works ul .display-icon {
+  display: none;
+}
+body main > div > div.fifth-section-contact {
+  background-color: rgba(10, 0, 0, 0.6);
+  color: #f8f7f7;
+}
+body main > div > div.fifth-section-contact > div:first-child {
+  text-align: right;
+  margin-bottom: 1%;
+}
+body main > div > div.fifth-section-contact > div:first-child span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f8f7f7;
+}
+body main > div > div.fifth-section-contact > div address {
+  font-size: 1.1rem !important;
+}
+body main > div > div.fifth-section-contact > div ul li {
+  display: inline;
+}
+body main > div > div.fifth-section-contact .social-media-icons li {
+  margin: 0px 5px;
+}
+body main > div > div.fifth-section-contact .social-media-icons li img {
+  border-radius: 50% !important;
+}
+body button {
+  border: 3px solid #c33636;
+  background: none;
+  color: #f8f7f7;
+}
+body button:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  body main > div > div {
+    padding: 0 5%;
+  }
+  body main > div > div.first-view div {
+    padding: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  body .gallery img {
+    max-width: unset !important;
+    width: 48% !important;
+    height: 376px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  body .gallery img {
+    width: 97% !important;
+    height: auto !important;
+    pointer-events: none;
+  }
+  body .gallery-modal {
+    display: none;
+  }
+  body .fourth-section-works ul {
+    padding-left: 0px !important;
+  }
+}
+@media (min-width: 615px) and (max-width: 780px) {
+  body .skills-bar {
+    width: 50px !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 614px) {
+  body .skills-bar-graph > div:not(:last-child) {
+    padding-right: 10px !important;
+  }
+  body .skills-bar-graph > div .skills-bar {
+    width: 40px !important;
+  }
+}
+@media only screen and (max-width: 499px) {
+  body .skills-bar-graph > div {
+    width: 30px !important;
+  }
+  body .skills-bar-graph > div:not(:last-child) {
+    padding-right: 0px !important;
+  }
+  body .skills-bar-graph > div > div:last-child {
+    transform: rotate(270deg);
+    margin-top: 28px !important;
+  }
+  body .skills-bar-graph > div > div.skills-bar {
+    width: 3px !important;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body .fourth-section-works ul .display-icon {
+    display: block !important;
+    margin: 0px 18px;
+    cursor: pointer;
+  }
+  body .fourth-section-works ul .display-text {
+    display: none;
+  }
+}
+
+#sketches, #clicks, #digPaint, #paintings {
+  display: none;
+}
+
+@media only screen and (max-width: 499px) {
+  body {
+    background-size: auto 640px !important;
+  }
+}
+
+/*# sourceMappingURL=portfolio_stylesheet.css.map */
