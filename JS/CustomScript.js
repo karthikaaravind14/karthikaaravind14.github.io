@@ -40,7 +40,7 @@ document.getElementById("skills-bar-graph").innerHTML = skillRow;
 /*Gallery starts*/
 var logosJpgCount = 5;
 var logosPngCount = 1;
-var sketchesCount = 38;
+var sketchesCount = 37;
 var clicksCount = 3;
 var digJpgCount = 2;
 var digPngCount = 2;
